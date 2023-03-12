@@ -1,4 +1,3 @@
-//Function to return a list of integers denoting spiral traversal of matrix.
 function spirallyTraverse(a, r, c) {
     let res = [];
     let lw = 0;
@@ -48,4 +47,4 @@ let a = [
 
 let r = a.length;
 let c = a[0].length;
-console.log(spirallyTraverse(a,r,c));
+spirallyTraverse(a,r,c);
