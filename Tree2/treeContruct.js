@@ -31,6 +31,7 @@ let tree = [70,2,4,-1,6,-1,-1,-1,3,-1,5,7,-1,-1,-1];
 let root = serialize(tree);
 
 displayTree(root);
+
 function displayTree(node){
     if(node  == null) return;
 
